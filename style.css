@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Adding Custom fonts
+
+Uncomment the lines to add self-hosted fonts. If a font does not have variable weights you have to add each font weight using the @font-face property.
+
+@layer base {
+
+    @font-face {
+        font-family: "FontName.ttf";
+        font-weight: 400;
+        src: url('/fonts/FontName.ttf') format('truetype');
+    }
+	@font-face {
+        font-family: "FontName.ttf";
+        font-weight: 400;
+        src: url('/fonts/FontName.ttf') format('truetype');
+    }
+
+}
