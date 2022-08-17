@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Creating a responsive full-screen background image (using seperate images)
+@layer components {
+    .responsive-hero-image {
+        background: url(src/img/Sodyba_overlay_smaller_md.jpg);
+    }
+
+    @media screen and (min-width: 600px) {
+        .responsive-hero-image {
+            background: url(src/img/Sodyba_overlay_smaller.jpg);
+        }
+    }
+}
+*/
+
+
 /* Adding Custom fonts
 
 Uncomment the lines to add self-hosted fonts. If a font does not have variable weights you have to add each font weight using the @font-face property.
